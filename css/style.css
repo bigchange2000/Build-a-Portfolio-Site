@@ -1,0 +1,169 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+h1,
+p {
+    font-weight: 300;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    padding: 0 0.3em 0.5em 0.3em;
+    margin-bottom: 0.5em;
+    border-bottom: 4px solid #7d97ad;
+}
+
+/* HEADER - Logo */
+#logo {
+    width: 100%;
+}
+
+#logo h1 {
+    letter-spacing: -5px;
+}
+
+#logo h1 .logo-alt-color {
+    color: #02b3e4;
+}
+
+/* HEADER - Branding */
+#branding {
+    width: 100%;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#branding h1 {
+    font-size: 1.9em;
+}
+
+/* SHOWCASE*/
+#showcase {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 0.3em;
+}
+
+#showcase img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+#showcase-title {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+#showcase-text {
+    width: 90%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+/* NEWSLETTER SUBSCRIPTION */
+#newsletter {
+    width: 100%;
+    text-align: center;
+    margin: 0.8em 0;
+    padding: 0 0.3em;
+}
+
+#form-newsletter {
+    width: 100%;
+    text-align: center;
+}
+
+#form-newsletter input {
+    width: 90%;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0.6em;
+}
+
+#form-newsletter .button_1 {
+    width: 50%;
+    padding: 0.6em;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #02b3e4;
+    font-size: 1.2em;
+}
+
+#form-newsletter .button_1:hover {
+    background-color: #2d3c49;
+    color: #fff;
+}
+
+/* FEATURED WORK */
+#featured-work {
+    width: 100%;
+    text-align: center;
+    margin: 0.8em 0;
+    padding: 0 0.3em;
+}
+
+#featured-work h1, #newsletter h1 {
+    color: #7d97ad;
+    font-size: 2em;
+}
+
+.featured-box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-box-container h2 {
+    color: #2d3c49;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.featured-box-container p {
+    padding: 0 0.3em;
+}
+
+.featured-box-container img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-box {
+    width: 100%;
+    margin-bottom: 1.2em;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 0.8em 1.2em;
+    margin-top: 1.2em;
+    background-color: #7d97ad;
+    color: #fff;
+    text-align: center;
+}

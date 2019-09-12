@@ -1,0 +1,138 @@
+/* RESPONSIVE - MOBILE */
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    #logo p {
+        display: none;
+    }
+
+    #branding {
+        text-align: center;
+    }
+
+    #showcase-title {
+        line-height: 1;
+    }
+
+    #form-newsletter .button_1 {
+        margin-top: 0.8em;
+    }
+
+    .featured-box-container {
+        flex-direction: column;
+    }
+
+}
+
+/* RESPONSIVE - TABLET */
+@media screen and (min-width: 601px) {
+
+    #logo {
+        line-height: 1.2;
+    }
+    #logo h1 {
+        font-size: 2.4em;
+        letter-spacing: -7px;
+    }
+
+    #logo p {
+        font-size: 1.3em;
+    }
+
+    #branding h1 {
+        font-size: 2.4em;
+    }
+
+    #branding p {
+        font-size: 1.3em;
+    }    
+    
+    #showcase-title {
+        font-size: 2em;
+    }
+    
+    #showcase-text {
+        font-size: 1.5em;
+    }
+
+    #form-newsletter input {
+        width: 50%;
+        padding: 0.4em;
+    }
+    
+    #form-newsletter .button_1 {
+        width: 30%;
+        cursor: pointer;
+        margin: 0;
+        background-color: #02b3e4;
+    }
+    
+    #form-newsletter .button_1:hover {
+        background-color: #2d3c49;
+        color: #fff;
+    }
+
+    .featured-box-container img {
+        width: 98%;
+        height: auto;
+    }
+
+}
+
+/* RESPONSIVE - DESKTOP */
+@media screen and (min-width: 900px) {
+
+    #logo {
+        line-height: 1.2;
+    }
+    #logo h1 {
+        font-size: 4em;
+        letter-spacing: -10px;
+    }
+
+    #logo p {
+        font-size: 1.8em;
+    }
+
+    #branding {
+        line-height: 1.2;
+    }
+
+    #branding h1 {
+        font-size: 4em;
+    }
+
+    #branding p {
+        font-size: 1.8em;
+    }
+
+    header, #showcase, #newsletter, #featured-work, footer {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    header {
+        margin-bottom: 0.8em;
+    }
+
+    #showcase-title {
+        font-size: 2.7em;
+    }
+    
+    #showcase-text {
+        font-size: 1.8em;
+    }
+
+    #featured-work h1, #newsletter h1 {
+        font-size: 2.4em;
+        text-align: left;
+        margin-top: 1em;
+    }
+}
